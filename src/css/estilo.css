@@ -350,24 +350,34 @@ body {
     width: 280px;
     clip-path: polygon(20px 0, 150% 0, 90% 105%, 0 100%, 0 20px);
     background-color: rgba (255, 255, 255, .1);
-    background-color: #FFE168;
-    color: #292222;
+    background-color: #423E3E;
+    color: #FFE168;
     font-family: 'Future',sans-serif;
-    font-size: 19px;
     text-align: center;
-    padding: 20px 40px;
+    justify-content: center;
+    padding: none;
     transition: all .3s ease-in;
 }
 
-.btn-bloco:hover {
-    background-color: #574c21;
-    color: #FFE168;
-    border: 0;
-    opacity: 50%;
+.btn-bloco img {
+    position: absolute;
+    transition: all .3s ease-in;
 }
 
+.btn-bloco img:hover {
+    background-color: #574c21;
+    color: #ffffff;
+    border: 0;
+    opacity: 1%;
+}
 
+.btn-bloco p {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Future', sans-serif;
+    font-weight: bolder;
 
+}
 
 
 
