@@ -19,14 +19,15 @@ body {
 
 /* CSS Cabeçalho*/
 .cabecalho {
-    height: 50px; 
+    height: 22px; 
     width: 100%;  
     background-color: #0b0b0b;
     border-bottom: solid 3px #FFE168;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
+    position: fixed;
 }
 
 .cabecalho img {
@@ -356,19 +357,27 @@ body {
     text-align: center;
     justify-content: center;
     padding: none;
-    transition: all .3s ease-in;
+    transition: all .3s ease-out;
 }
 
 .btn-bloco img {
     position: absolute;
-    transition: all .3s ease-in;
+    transition: all .3s ease-out;
+}
+
+.btn-bloco:hover {
+    height: 310px;
+    width: 310px;
+    background-color: #423E3E;
 }
 
 .btn-bloco img:hover {
+    height: 300px;
+    width: 300px;
     background-color: #574c21;
     color: #ffffff;
     border: 0;
-    opacity: 1%;
+    opacity: 0%;
 }
 
 .btn-bloco p {
