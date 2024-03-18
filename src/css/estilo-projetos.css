@@ -128,10 +128,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .redes-sociais {
     background-color: none;
+    height: 40px;
     width: 90%;
     gap: 10px;
 }
