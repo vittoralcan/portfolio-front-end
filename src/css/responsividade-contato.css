@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+
+    /*CSS Formulário*/
+.formulario {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+  form {
+    width: 78%;
+    max-width: 30rem;
+    font-family: 'Future' sans-serif;
+  }
+
+  form label {
+    font-family: 'Future', sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: flex;
+  }
+  
+  input,
+  button {
+    width: 100%;
+    padding: 1.25rem;
+    font-weight: none;
+    font-family: 'Future', sans-serif;
+    clip-path: polygon(15px 0, 110% 0, 97% 100%, 0 100%, 0 15px);
+  }
+
+  textarea {
+    width: 100%;
+    padding: 1.25rem;
+    font-family: 'Future', sans-serif;
+    clip-path: polygon(15px 0, 130% 0, 96% 100%, 0 100%, 0 15px);
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: #323644;
+    border: 0.125rem solid transparent;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:hover,
+  input:focus,
+  textarea:hover,
+  textarea:focus {
+    outline: none;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    color: #84868f;
+  }
+  
+  textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+  }
+  
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Future', sans-serif;
+    font-weight: bolder;
+    border: none;
+    color: rgb(61, 61, 61);
+    background: #FFE168;
+    cursor: pointer;
+    transition: 0.3s;
+    clip-path: polygon(15px 0, 110% 0, 97% 100%, 0 100%, 0 15px);
+  }
+  
+  button:hover,
+  button:focus {
+    outline: none;
+    background: #584e23;
+    color: #FFE168;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+  }
+  
+  .success,
+  .error {
+    text-align: center;
+  }
+  
+  .success {
+    color: greenyellow;
+  }
+  
+  .error {
+    color: tomato;
+  }
+
+}

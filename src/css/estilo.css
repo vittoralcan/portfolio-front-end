@@ -123,6 +123,27 @@ body {
     border: 0;
 }
 
+.btn-ver-mais {
+    height: 70px;
+    width: 120px;
+    clip-path: polygon(20px 0, 130% 0, 90% 100%, 0 100%, 0 20px);
+    background-color: rgba (255, 255, 255, .1);
+    background-color: #FFE168;
+    color: #292222;
+    font-family: 'Future',sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 20px 40px;
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.btn-ver-mais:hover {
+    background-color: #574c21;
+    color: #FFE168;
+    border: 0;
+}
+
 .redes-sociais {
     display: flex;
     align-items: center;
@@ -217,7 +238,7 @@ body {
 }
 
 .texto-imagem img {
-    width: 400px;
+    width: 98%;
 }
 
 .texto-imagem .imagem {
