@@ -10,7 +10,8 @@
     <link rel="shortcut icon" href="./src/Imagens/pasta.png" type="image/x-icon">
     <link href="https://fonts.cdnfonts.com/css/chalet-newyork" rel="stylesheet">
     <link rel="stylesheet" href="SRC/css/reset.css">
-    <link rel="stylesheet" href="SRC/css/estilo.css">
+    <link rel="stylesheet" href="SRC/css/estilo-contato.css">
+    <link rel="stylesheet" href="./src/js/contato.js">
 
 </head>
 
@@ -35,12 +36,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="./index.html">
+                                <a href="./projetos.html">
                                     <h4>MEUS PROJETOS</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="./contato.html" target="_blank">
+                                <a href="./contato.html">
                                     <h4>CONTATO</h4>
                                 </a>
                             </li>
@@ -48,24 +49,42 @@
                     </nav>
 
             </header>
+            <div class="formulario">
+                    <form action="https://formsubmit.co/ajax/joaovitoredt@hotmail.com" method="POST" data-form >
+                        <label for="nome">NOME</label>
+                        <input type="text" name="nome" id="nome" required />
+                        <label for="email">E-MAIL</label>
+                        <input type="email" name="email" id="email" required />
+                        <label for="mensagem">MENSAGEM</label>
+                        <textarea name="mensagem" id="mensagem" required></textarea>
+                        <button type="submit" data-button>ENVIAR</button>
+                    </form>
+           </div>
 
-            <section class="redes">
-                <div class="redes-sociais">
-                    <a href="./contato.html" class="btn-redes-1" target="_blank">
-                        <img src="./src/img/instagrampng.png" alt="">
-                    </a>
-                    <a href="./contato.html" class="btn-redes-1" target="_blank">
-                        <img src="./src/img/linkedinpng.png" alt="">
-                    </a>
-                    <a href="./contato.html" class="btn-redes-1" target="_blank">
-                        <img src="./src/img/discordpng.png" alt="">
-                    </a>
-                    <a href="./contato.html" class="btn-redes-1" target="_blank">
-                        <img src="./src/img/emailpng.png" alt="">
-                    </a>
-            </div>
+            <footer>
+                <div id="footer_content">
 
-            </section>
+                    <div class="redes-sociais">
+                        <a href="https://www.instagram.com/vittoralcan?igsh=MXdtZTd5N2xjZDBscg%3D%3D&utm_source=qr" class="btn-redes-1" target="_blank">
+                            <img src="./src/img/instagrampng.png" alt="">
+                        </a>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-v%C3%ADtor-o-de-alcantara-3747342a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="btn-redes-1" target="_blank">
+                            <img src="./src/img/linkedinpng.png" alt="">
+                        </a>
+                        <a href="./contato.html" class="btn-redes-1" target="_blank">
+                            <img src="./src/img/discordpng.png" alt="">
+                        </a>
+                        <a href="./contato.html" class="btn-redes-1" target="_blank">
+                            <img src="./src/img/emailpng.png" alt="">
+                        </a>
+                </div>
+                </div>
+        
+                <div id="footer_copyright">
+                    &#169
+                    2023 todos os direitos reservados
+                </div>
+            </footer>
 
 </body>
 </html>
