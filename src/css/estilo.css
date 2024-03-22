@@ -1,7 +1,7 @@
 /* CSS * index.html *  ---------------------------------------------------------------------------------------------------------------------------- */
 @font-face {
     font-family: 'Future' ;
-    src: url('/src/font/NovaSquare-Book.ttf') format('opentype'), url('/src/font/Perfect\ Futures\ Italic.ttf') format('truetype');
+    src: url('src/font/NovaSquare-Book.ttf') format('opentype'), url('src/font/Perfect\ Futures\ Italic.ttf') format('truetype');
 
 }
 
