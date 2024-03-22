@@ -34,7 +34,6 @@ body {
     display: flex;
     gap: 30px;
     height: 35px;
-    display: none;
 }
 
 .cabecalho .menu {
@@ -47,7 +46,7 @@ body {
 .cabecalho .menu li {
     padding: 20px;
     color: #868686;
-    font-size: 11px;
+    font-size: 13px;
     font-family: 'Future',sans-serif;
 }
 
